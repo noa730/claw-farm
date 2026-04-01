@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/images/logo-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/images/logo-light.svg" />
+    <img src="assets/images/logo-light.svg" width="320" alt="Claw Farm Logo" />
+  </picture>
+</p>
+
 # Claw Farm - 有机循环农业智能决策系统
 
 > 探索 AI Agent 在复杂生态农业系统中的应用
