@@ -8,7 +8,10 @@
       "Bash(mkdir -p \"D:/BaiduSyncdisk/SyncFiles/4-项目调研/AI Agent/claw-farm/循环农业项目/assets/sources\")",
       "Bash(cp:*)",
       "Bash(mkdir -p \"D:/BaiduSyncdisk/SyncFiles/4-项目调研/AI Agent/claw-farm/.claude/commands\")",
-      "Bash(cp \"D:/BaiduSyncdisk/SyncFiles/4-项目调研/AI Agent/claw-code/.claude/commands/\"*.md \"D:/BaiduSyncdisk/SyncFiles/4-项目调研/AI Agent/claw-farm/.claude/commands/\")"
+      "Bash(cp \"D:/BaiduSyncdisk/SyncFiles/4-项目调研/AI Agent/claw-code/.claude/commands/\"*.md \"D:/BaiduSyncdisk/SyncFiles/4-项目调研/AI Agent/claw-farm/.claude/commands/\")",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git add:*)"
     ]
   }
 }
