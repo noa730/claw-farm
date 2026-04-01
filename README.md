@@ -10,10 +10,6 @@
 
 > 探索 AI Agent 在复杂生态农业系统中的应用
 
-<p align="center">
-  <img src="assets/images/readme/compost.jpg" width="60%" alt="有机土壤" />
-</p>
-
 ## 项目简介
 
 本项目是一个**合作探索性项目**，旨在研究智能体（AI Agent）如何辅助复杂生态农业系统的决策与管理。
