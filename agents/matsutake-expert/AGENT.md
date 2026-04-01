@@ -10,11 +10,19 @@
 - `docs/distilled/matsutake/symbiosis.md` — 共生关系与循环链衔接
 
 ## 可调用 Skills
-| Skill | 用途 |
-|-------|------|
-| `skill-env-monitor` | 读取传感器数据，判断当前环境是否适宜菌丝生长 |
-| `skill-yield-predict` | 根据温湿度曲线预测本季松茸产出 |
-| `skill-symbiosis-calc` | 计算共生养分交换率及菌糠产出量 |
+
+### 专属技能
+| Skill | 路径 | 用途 |
+|-------|------|------|
+| `skill-spore-analysis` | `.claude/skills/matsutake-expert/` | 分析孢子活性、萌发率、污染率 |
+| `skill-symbiotic-matching` | `.claude/skills/matsutake-expert/` | 计算松茸与特定松树/栎树的养分交换效率 |
+| `skill-mycelium-growth-model` | `.claude/skills/matsutake-expert/` | 根据基质配比预测菌丝蔓延速度 |
+
+### 全局技能（共享）
+| Skill | 路径 | 用途 |
+|-------|------|------|
+| `skill-env-monitor` | `.claude/skills/` | 获取温湿度等环境数据 |
+| `skill-camera-capture` | `.claude/skills/` | 拍摄现场照片，交由本 Agent 视觉分析 |
 
 ## 行为准则
 1. 所有建议必须标注数据来源（知识库文件路径或文献）

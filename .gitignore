@@ -1,0 +1,9 @@
+# Camera captures (large image files)
+assets/images/captures/
+
+# Baidu sync temp files
+*.baiduyun.uploading.cfg
+
+# OS
+.DS_Store
+Thumbs.db
