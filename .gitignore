@@ -7,3 +7,15 @@ assets/images/captures/
 # OS
 .DS_Store
 Thumbs.db
+
+# Temporary notes / scratch files
+Script.md
+
+# Internal-only assets (not related to agent system)
+assets/images/architecture.svg
+assets/images/全景规划图.JPG
+docs/distilled/shared/exhibition_boards.md
+docs/*.doc
+
+# Local settings
+.claude/settings.local.json
